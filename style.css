@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+* {
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0d192c;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+section {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  height: 596px;
+  margin: auto;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+.m-pic {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+.m-pic img {
+  width: 100%;
+  display: block;
+}
+.eyeson {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  display: none;
+}
+
+.eyeson img {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.m-pic:hover .eyeson {
+  display: block;
+}
+h1 {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27.72px;
+  margin-top: 16px;
+}
+h1:hover {
+  color: #00fff8;
+}
+.text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  list-style: 26px;
+  margin-top: 16px;
+  color: #8bacd9;
+}
+bold {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 6.48px;
+  color: #00fff8;
+}
+.icon {
+  display: inline-flex;
+  margin-top: 24px;
+}
+.left {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  size: 16px;
+  line-height: 20.16px;
+  margin-left: 7.7px;
+  color: #8bacd9;
+}
+.clock {
+  color: #8bacd9;
+  display: inline-flex;
+  position: relative;
+  transform: translateX(110%);
+}
+hr {
+  width: 302px;
+  height: 1px;
+  top: 514px;
+  left: 26px;
+  margin-top: 24px;
+  background-color: #2e405a;
+}
+.name {
+  color: #8bacd9;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.16px;
+  left: 16px;
+  position: relative;
+  top: 20px;
+}
+.avatar {
+  width: 33px;
+  height: 33px;
+  margin-top: 16px;
+  padding: 1px;
+  background-color: white;
+  border-radius: 50%;
+}
+.boy {
+  display: inline-flex;
+}
+strong {
+  color: #ffffff;
+  position: relative;
+  left: 5px;
+}
+
+strong:hover {
+  color: #00fff8;
+}
